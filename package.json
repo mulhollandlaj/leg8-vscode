@@ -1,0 +1,25 @@
+{
+    "name": "leg8",
+    "displayName": "leg8",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "leg8",
+            "aliases": ["leg8 Assembly", "leg8"],
+            "extensions": [".leg8"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "leg8",
+            "scopeName": "source.leg8",
+            "path": "./syntaxes/leg8.tmLanguage.json"
+        }]
+    }
+}
